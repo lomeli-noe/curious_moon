@@ -14,5 +14,5 @@ description text
 );
 
 COPY import.master_plan
-FROM '/Users/sinistro/Documents/enceladus/data/master_plan.csv'
+FROM '/Users/sinistro/Documents/enceladus/curious_moon/master_plan.csv'
 WITH DELIMITER ',' HEADER CSV;
