@@ -12,7 +12,4 @@ library_definition text,
 title text,
 description text
 );
-
-COPY import.master_plan
-FROM '/Users/sinistro/Documents/enceladus/curious_moon/data/master_plan.csv'
-WITH DELIMITER ',' HEADER CSV;
+COPY import.master_plan FROM '/Users/sinistro/Documents/enceladus/curious_moon/data/master_plan.csv' WITH DELIMITER ',' HEADER CSV;
